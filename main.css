@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+
+*{
+   box-sizing: border-box;
+}
+body{
+   background: url('https://cdn.pixabay.com/photo/2016/11/28/19/01/composing-1865691_1280.jpg') no-repeat;
+   background-size:cover;
+
+
+}
+.container{
+   padding-top: 100px;
+   
+  
+}
+.horoskop{
+   font-family: 'Bungee Inline', cursive;
+  
+   font-size: 55px;
+   letter-spacing: 5px;
+}
+.block{
+  
+   width: 250px;
+   height: 250px;
+   /* background: #000; */
+   /* border:1px solid black; */
+   border-radius: 50%;
+  
+}
+.block1{
+   margin-top: 40px;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background: yellow;
+   transition: all ease-in-out 2s;
+}
+
+.b1{
+  position: relative;
+}
+.b1 .block1:nth-child(1){
+  background-image: url('R1.jpg');
+  background-size: contain;
+  
+   position: absolute;
+   top:-53px;
+   left:47px;
+}
+.b1 .block1:nth-child(2){
+   background-image: url('https://st2.depositphotos.com/3804071/5373/v/950/depositphotos_53734499-stock-illustration-neon-signs-of-the-zodiac.jpg') ;
+   background-size: contain;
+   position: absolute;
+   top:-66px;
+   left:114px;
+   
+}
+.b1 .block1:nth-child(3){
+   background-image: url('https://st2.depositphotos.com/3804071/5373/v/950/depositphotos_53734501-stock-illustration-neon-signs-of-the-zodiac.jpg');
+   background-size: contain;
+   position: absolute;
+   top:-5px;
+   left:0px;
+}
+.b2{
+   position: relative;
+ }
+ .b2 .block1:nth-child(1){
+   background-image: url('https://st2.depositphotos.com/3804071/5373/v/950/depositphotos_53734483-stock-illustration-neon-signs-of-the-zodiac.jpg');
+   background-size: contain;
+   position: absolute;
+   top:-48px;
+   left:148px;
+}
+.b2 .block1:nth-child(2){
+   background-image: url('https://st2.depositphotos.com/3804071/5373/v/950/depositphotos_53734495-stock-illustration-neon-signs-of-the-zodiac.jpg');
+   background-size: contain;
+   position: absolute;
+   top:-2px;
+   left:195px;
+}
+.b2 .block1:nth-child(3){
+  background-image: url('https://st2.depositphotos.com/3804071/5373/v/950/depositphotos_53734493-stock-illustration-neon-signs-of-the-zodiac.jpg');
+  background-size: contain;
+   position: absolute;
+   top:60px;
+   left:-41px;
+   
+}
+
+.b3{
+   position: relative;
+}
+.b3 .block1:nth-child(1){
+   background-image: url('https://st2.depositphotos.com/3804071/5373/v/950/depositphotos_53734497-stock-illustration-neon-signs-of-the-zodiac.jpg');
+   background-size: contain;
+   position: absolute;
+   top:62px;
+   left:176px;
+}
+.b3 .block1:nth-child(2){
+ background-image: url('https://st2.depositphotos.com/3804071/5350/v/950/depositphotos_53501967-stock-illustration-neon-signs-of-the-zodiac.jpg');
+ background-size: contain;
+   position: absolute;
+   top:127px;
+   left:165px;
+}
+.b3 .block1:nth-child(3){
+   background-image: url('https://st2.depositphotos.com/3804071/5373/v/950/depositphotos_53734489-stock-illustration-neon-signs-of-the-zodiac.jpg');
+   background-size: contain;
+   position: absolute;
+   top:172px;
+   left:115px;
+}
+
+.b4{
+   position: relative;
+}
+
+.b4 .block1:nth-child(1){
+   background-image: url('https://st2.depositphotos.com/3804071/5373/v/950/depositphotos_53734491-stock-illustration-neon-signs-of-the-zodiac.jpg');
+   background-size: contain;
+   position: absolute;
+   top:183px;
+   left:23px;
+}
+.b4 .block1:nth-child(2){
+  background-image: url('https://st2.depositphotos.com/3804071/5373/v/950/depositphotos_53734481-stock-illustration-neon-signs-of-the-zodiac.jpg');
+  background-size: contain;
+   position: absolute;
+   top:168px;
+   left:-38px;
+}
+.b4 .block1:nth-child(3){
+   background-image: url('https://st2.depositphotos.com/3804071/5373/v/950/depositphotos_53734487-stock-illustration-neon-signs-of-the-zodiac.jpg');
+   background-size: contain;
+   position: absolute;
+   top:122px;
+   left:-81px;
+}
+/* .b1 .block1:nth-last-child(1){
+   background: #000;
+   position: absolute;
+   top:-46px;
+   left:65px;
+} */
+
+/* .block-H{
+  margin-top: 100px;
+} */
+.block-H input{
+   width: 300px;
+}
+.block-H__input1{
+   margin-bottom: 10px;
+}
+.btn-info{
+   margin-top: 10px;
+}
+.btn-danger{
+   margin-top: 10px;
+   display: none;
+}
+.w{
+   width: 250px;
+   height: 250px;
+}
+
+#out{
+   max-width: 80%;
+   position: relative;
+   left:50%;
+   /* margin: 0 auto; */
+   transform: translateX(-50%);
+}
+ #out p{
+    color:wheat;
+   
+ }
+
+.audio{
+   display:none;
+}
+
+.icon-muzic{
+  position: relative;
+  width: 100%;
+  
+}
+.fa-volume-mute{
+   display: none;
+   left:95%;
+   top:-70px;
+   position: absolute;
+   font-size: 35px;
+   color:rgb(0, 0, 0);
+}
+/* .fa-volume-down{
+   position: absolute;
+   left:95%;
+   top:-70px;
+   
+   font-size: 35px;
+   color:rgb(0, 0, 0);
+} */
+
+.act{
+   /* transition: all 4s ease-in-out 2; */
+   animation: name 5s ease-in-out 1s  ;
+}
+@keyframes name{
+   0%{
+
+   }
+   100%{
+      transform: rotate(360deg);
+   }
+}
+
+.w1{
+   /* transform: translate(100px 100px); */
+   margin:15px 100px;
+   width: 100px;
+   height: 100px;
+}
+.w2{
+   margin:75px 90px;
+   width: 100px;
+   height: 100px;
+}
+.w3{
+   margin:126px 41px;
+   width: 100px;
+   height: 100px;
+}
+.w4{
+  transform: translate(-25px,100px);
+   width: 100px;
+   height: 100px;
+}
+.w5{
+   transform: translate(-86px,82px);
+    width: 100px;
+    height: 100px;
+ }
+ .w6{
+   transform: translate(-134px,38px);
+    width: 100px;
+    height: 100px;
+ }
+ .w7{
+   transform: translate(-145px,-30px);
+    width: 100px;
+    height: 100px;
+ }
+ .w8{
+   transform: translate(-135px,-90px);
+    width: 100px;
+    height: 100px;
+ }
+ .w9{
+   transform: translate(-90px,-138px);
+    width: 100px;
+    height: 100px;
+ }
+ .w10{
+   transform: translate(-20px,-150px);
+    width: 100px;
+    height: 100px;
+ }
+ .w11{
+   transform: translate(35px,-135px);
+    width: 100px;
+    height: 100px;
+ }
+ .w12{
+   transform: translate(75px,-90px);
+    width: 100px;
+    height: 100px;
+ }
