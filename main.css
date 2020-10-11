@@ -209,16 +209,16 @@ body{
 
 .act{
    /* transition: all 4s ease-in-out 2; */
-   animation: name 5s ease-in-out 1s  ;
+   /* animation: name 5s ease-in-out 1s  ; */
 }
-@keyframes name{
+/* @keyframes name{
    0%{
 
    }
    100%{
       transform: rotate(360deg);
    }
-}
+} */
 
 .w1{
    /* transform: translate(100px 100px); */
